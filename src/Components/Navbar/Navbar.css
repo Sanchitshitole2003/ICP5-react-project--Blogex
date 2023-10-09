@@ -1,0 +1,16 @@
+.navbar{
+    background-color: black;
+    padding: 5px;
+    
+    }
+
+.navbar-title{
+    display: inline-block;
+    color: whitesmoke;
+    margin-right: 100px;
+}
+.navbar_component{
+    display: inline-block;
+    margin: 0px 10px;
+    color: whitesmoke;
+}
