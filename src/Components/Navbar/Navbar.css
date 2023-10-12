@@ -8,9 +8,19 @@
     display: inline-block;
     color: whitesmoke;
     margin-right: 100px;
+    font-size: large;
 }
 .navbar_component{
     display: inline-block;
     margin: 0px 10px;
     color: whitesmoke;
+}
+.icon{
+    width: 20px;
+
+}
+
+.brand_container{
+    display: flex;
+    width: 30%;
 }
