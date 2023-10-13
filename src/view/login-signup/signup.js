@@ -1,8 +1,6 @@
 import { useState } from "react";
 import "./signup.css";
-// import {Link} from 'react-router-dom';
-// import { Routes } from "react-router-dom";
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 function SignUp() {
@@ -14,7 +12,7 @@ function SignUp() {
             name: '',
             date: '',
             email: '',
-            password: '',
+            password: ''
         }
     )
 
@@ -59,16 +57,8 @@ function SignUp() {
         else {
             console.log("data added succesfully");
             history("/login")
-            localStorage.setItem('usersaveddata', JSON.stringify([...data,inputdata]));
-            // this will create an array of objects for different users
-            // setData([...data,inputdata]);
-            // console.log(data)
-
-            // const saveToLocalStorage = (usersaveddata) => {
-            //     localStorage.setItem('inputdata', JSON.stringify(usersaveddata));
-            // }
-            // saveToLocalStorage(data);
-
+            localStorage.setItem('usersaveddata',JSON.stringify([...data,inputdata]));
+                      
         }
 
     }
@@ -93,7 +83,7 @@ function SignUp() {
                     <label htmlFor="password">PASSWORD</label>
                     <input type="text" name="password" onChange={getData} placeholder="Password" id="password" />
 
-                    <button className="signup-btn" onClick={addData}>
+                    <button className="signup-btn" onClick={addData} type="submit">
                         SIGNUP
                     </button>
 
@@ -102,13 +92,13 @@ function SignUp() {
                 <div style={{
                     display:'flex',  width:'35%', justifyContent:'space-around'
                 }}>
-                    <a href="/" className="back-btn" type="submit">
+                    <Link to="/" className="back-btn" >
                         BACK
-                    </a>
+                    </Link>
 
-                    <a href="/login" className="back-btn" type="submit">
+                    <Link to="/login" className="back-btn">
                         LOGIN
-                    </a>
+                    </Link>
                 </div>
 
             </div>

@@ -1,6 +1,6 @@
 import "./signup";
 import { useState } from "react";
-import { useNavigate } from 'react-router-dom';
+import {Link, useNavigate } from 'react-router-dom';
 import "./login.css"
 
 function Login() {
@@ -8,7 +8,7 @@ function Login() {
     const [inputdata, setInputdata] = useState(
         {
             email: '',
-            password: '',
+            password: ''
         }
     )
 
@@ -28,6 +28,7 @@ function Login() {
         e.preventDefault();
 
         const getUserArray = localStorage.getItem('usersaveddata');
+        console.log(getUserArray);
 
         // object destructuring below
         const { email, password } = inputdata;
@@ -47,7 +48,7 @@ function Login() {
         else {
             if (getUserArray && getUserArray.length) {
                 const userdata = JSON.parse(getUserArray);
-                const userlogin = userdata.filter((element, i) => {
+                const userlogin = userdata.filter((element, _i) => {
                     return element.email === email && element.password === password
                 });
 
@@ -82,7 +83,7 @@ function Login() {
                     <label htmlFor="password">PASSWORD</label>
                     <input type="text" name="password" onChange={getData} placeholder="Password" id="password" />
 
-                    <button className="signup-btn" onClick={addData}>
+                    <button className="signup-btn" onClick={addData} type="submit" >
                         LOGIN
                     </button>
 
@@ -91,13 +92,13 @@ function Login() {
                 <div style={{
                     display: 'flex', width: '35%', justifyContent: 'space-around'
                 }}>
-                    <a href="/" className="back-btn" type="submit">
+                    <Link to="/" className="back-btn" >
                         BACK
-                    </a>
+                    </Link>
 
-                    <a href="/signup" className="back-btn" type="submit">
+                    <Link to="/signup" className="back-btn">
                         SIGNUP
-                    </a>
+                    </Link>
                 </div>
 
             </div>
