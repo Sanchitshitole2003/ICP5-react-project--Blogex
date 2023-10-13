@@ -7,7 +7,7 @@ import image4 from './image4.jpg';
 
 export default function Home() {
     return (
-        <>
+        <> 
             <div className='parentdiv1'>
                 <div classname='containerdiv1'>
                     <h1 className='titlehome'>Create a blog</h1>
@@ -51,7 +51,6 @@ export default function Home() {
                 </div>
 
             </div>
-
         </>
     )
 }
