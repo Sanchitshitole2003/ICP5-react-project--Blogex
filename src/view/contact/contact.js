@@ -2,20 +2,14 @@ import './contact.css';
 
 export default function Contact() {
     return(
-        <div className='page-title-wrapper text-center'>
-            <h1 class="page-title mb-25">Contact Us</h1>
-            <ul className='trail-items'>
-                <li className='trail-item trail-begin'>
-                    <a href="/">
-                        <span>Home</span>
-                    </a>
-                    
-                </li>
-                <li class="trail-item trail-end">
-                    <span>Contact Us</span>
-                </li>
-
-            </ul>
+        <div className='body_bg layout_padding'>
+            <section className='contact_section'>
+                <div className='container'>
+                    <div className='heading_container'>
+                        <h2>Let's Get In Touch!</h2>
+                    </div>
+                </div>
+            </section>
         </div>
 
     )
