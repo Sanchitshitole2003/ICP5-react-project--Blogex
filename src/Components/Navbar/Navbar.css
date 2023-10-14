@@ -12,8 +12,12 @@
 }
 .navbar_component{
     display: inline-block;
-    margin: 0px 10px;
+    margin: 10px 25px;
     color: whitesmoke;
+    text-decoration: none;
+    height: 25px;
+    width: 75px;
+    text-align: center;
 }
 .icon{
     width: 50px;
@@ -41,4 +45,12 @@
 }
 .login{
     margin-right: 0px;
+}
+.sign{
+    position: absolute;
+    right: 10px;
+}
+.navbar_component:hover{
+    background-color: darkgoldenrod;
+    color: black;
 }

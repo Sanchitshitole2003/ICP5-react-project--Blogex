@@ -37,7 +37,7 @@ const router = createBrowserRouter([
     element: <Template/>
   },
   {
-    path: '/home',
+    path: '/',
     element: <Home/>
   }])
 root.render(
