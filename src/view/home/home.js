@@ -4,6 +4,8 @@ import image1 from './image7.png';
 import image2 from './image3.png';
 import imaget1 from './imaget1.jpg';
 import Navbar from '../../components/Navbar/Navbar';
+import Template from '../template/template';
+import { Link } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
 /*import { Link } from 'react-router-dom';
 import Template from '../template/template';*/
@@ -47,7 +49,7 @@ export default function Home() {
                         <h2>Work From home</h2>
                         <h3>Work From home is an easy way to offer your availabilty without your physical presence in the office</h3> </div>
                     </div>
-                    <button className='btnhm2'>Visit Template</button>
+                   <Link to="/template"><button className='btnhm2'>Visit Template</button></Link>
             </div>
             
             
