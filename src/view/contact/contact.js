@@ -1,10 +1,6 @@
 import './contact.css';
 import Navbar from '../../Components/Navbar/Navbar';
 import Footer from '../../Components/Footer/Footer';
-import GitHub from './github.png';
-import Linkedin from './linkedin.jpg';
-import Twitter from './twitter-2.png';
-import Instagram from './in.jpg';
 
 export default function Contact() {
     return(

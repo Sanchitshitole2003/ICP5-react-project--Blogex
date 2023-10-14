@@ -4,7 +4,18 @@ import image4 from './image4.jpg';
 
 export default function Template() {
     return (
-        <div>
+
+
+<>
+<div>
+    <div>
+        
+    </div>
+    
+</div>
+</>
+
+       /* <div>
             <span className='tempsubheading'><h1>Title</h1>
             <h3>By: xyz surname</h3></span>
             <div className='tempsub1'>
@@ -24,7 +35,6 @@ export default function Template() {
                 </h>
             </div>
             </div>
-
-        </div>
+        </div>*/
     )
 }
