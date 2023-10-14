@@ -5,7 +5,8 @@ import Contact from "./view/contact/contact";
 import About from "./view/about/about";
 import BlogWriting from "./view/blogwriting/blogwriting";
 import Template from './view/template/template';
-
+import SignUp from './view/login-signup/signup';
+import Login from './view/login-signup/login';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,6 +28,14 @@ const router = createBrowserRouter([
   {
     path: '/template',
     element: <Template />
+  },
+  {
+    path: '/signup',
+    element: <SignUp/>
+  },
+  {
+    path: '/login',
+    element: <Login/>
   },
 ]);
 

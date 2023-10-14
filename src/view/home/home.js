@@ -4,11 +4,10 @@ import image1 from './image7.png';
 import image2 from './image3.png';
 import imaget1 from './imaget1.jpg';
 import Navbar from '../../components/Navbar/Navbar';
-import Template from '../template/template';
 import { Link } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
-/*import { Link } from 'react-router-dom';
-import Template from '../template/template';*/
+
+
 
 export default function Home() {
     return (
@@ -65,9 +64,7 @@ export default function Home() {
                         <li>Create, publish, and manage content with blog and image editing tools.</li>
                     </ol>
                 </div>
-
             </div>
-        
         </>
     )
 }
