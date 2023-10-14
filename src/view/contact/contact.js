@@ -1,6 +1,10 @@
 import './contact.css';
 import Navbar from '../../Components/Navbar/Navbar';
 import Footer from '../../Components/Footer/Footer';
+import GitHub from './github.png';
+import Linkedin from './linkedin.jpg';
+import Twitter from './twitter-2.png';
+import Instagram from './in.jpg';
 
 export default function Contact() {
     return(
@@ -30,6 +34,19 @@ export default function Contact() {
                             <p className='para para-1'>404, Laxmi Heights, Above Lotus Multi-speciality Hospital Manjari  BK, Pune - 412307</p><br></br>
                             <p className="para para-1">📱 8805803087, 7020407429</p><br></br>
                             <p className='para para-1'>📩https://www.roadtocode.org/</p><br></br>
+                        </div>
+
+                        <div>
+                            <h3 className='mt-1 heading'>Social</h3>
+                            <ul>
+                                <list> <img src={GitHub} alt="" /> www.linkedin.com</list> 
+
+                                <list> <img src={Linkedin} alt="" /> www.linkedin.com</list>
+                                
+                                <link><img src={Twitter} alt="" />www.twitter.com</link>
+
+                                <list><img src={Instagram} alt="" />www.instagram.com</list>
+                            </ul>
                         </div>
                     </div>
                 </div>
