@@ -5,6 +5,7 @@
 }
 .footer_container{
     display: flex;
+    flex-wrap: wrap;
 }
 .name{
     font-size: 30px;
@@ -20,6 +21,7 @@
     display: flex;
     width: 300px;
     margin-bottom: 5px;
+    flex-wrap: wrap;
 }
 
 .footer_component{
@@ -38,11 +40,13 @@
     display: flex;
     width:300px;
     margin-bottom: 5px;
-    margin-left: 0px;
+    margin-right: 0px;
+    flex-wrap: wrap;
 }
 .social_logo{
     width: 30px;
     display: block;
+    margin-right: 10px;
 }
 
 .info_title{
@@ -51,6 +55,7 @@
 }
 .social_logo_container{
     display: flex;
+    margin-bottom: 10px;
 }
 .copyright{
     display: block;
