@@ -1,37 +1,29 @@
-.body_bg {
-    background-image: url(./body_bg.jpg);
-    background-size: cover;
+*{
+    padding: 0;
+    margin: 0;
 }
 
-.layout_padding {
-    padding: 75px 0;
-}
-
-.container{
+.main{
+    background-color: #FFFF00;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    height: 580px;
+    border-radius: 20px;
 }
 
-.heading_container{
-    display: flex;
+.body-color{
+    background-color: aliceblue;
+    margin: 0;
+    color: #36454F;
+    padding: 0;
 }
 
-.contact_section .heading_container {
-    -webkit-box-pack: center;
-    justify-content: center;
-    margin-bottom: 45px;
-}
-
-.h2 {
-    font-size: 2rem;
-}
-
-.heading_container h2 {
-    font-weight: 700;
-    color: #050000;
-    padding: 3px 10px;
-    border-bottom: 1px solid #000;
+.text {
+    height: 50px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 42px;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 18px;
 }

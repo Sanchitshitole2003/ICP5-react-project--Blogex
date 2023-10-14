@@ -1,7 +1,9 @@
 import './about.css';
-
+import Navbar from '../../components/Navbar/Navbar';
 export default function About() {
     return(
+        <>
+        <Navbar/>
         <div className='page-title-wrapper text-center'>
             <h1 class="page-title mb-25">About Us </h1>
             <ul className='trail-items'>
@@ -17,6 +19,6 @@ export default function About() {
 
             </ul>
         </div>
-
+</>
     )
 }

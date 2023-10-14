@@ -5,27 +5,38 @@ yellow: #FCF55F
 .titlehome {
     font-size: 50px;
     margin-left: 30px;
+    margin-top: 100px;
 }
 
 .parentdiv1 {
     display: flex;
     justify-content: space-around;
+    height: 600px;
+    width: 800px;
+    margin-top: 20px;
     background-image: url("./image2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+     position: relative;
+     margin-left: 50px;
+     border-radius: 5px;
+     padding: 25px 50px;
 }
-
 .imagediv1 {
+    position: absolute;
     height: 600px;
+    left: 600px;
+    bottom: 1px;
 }
 
 .titletexthome {
+    display: block;
     font-size: 30px;
     text-align: justify;
     margin: 20px;
     font-family: Harrington;
+    width: 450px;
 }
 
 .btnhm1 {
@@ -38,10 +49,15 @@ yellow: #FCF55F
     font-size: 18px;
     color: white;
     cursor: pointer;
+    position: relative;
+    bottom: 1px;
+    right: 20px;
+    border-radius: 10px;
 }
 
 body {
     margin: 0px;
+    background-color: black;
 }
 
 .titlehome2 {
@@ -52,10 +68,13 @@ body {
 .parentdiv2 {
     display: flex;
     flex-direction: column;
-    background-color: #FCF55F;
+    background-color: #E1AD01;
     height: 600px;
     position: relative;
     text-align: center;
+    margin-top: 20px;
+    width: 800px;
+    margin-left: 600px;
 }
 
 .imagediv2 {
@@ -70,10 +89,12 @@ body {
 }
 
 .insidetemp {
+    position: absolute;
+    left: -450px;
     display: flex;
     justify-content: space-evenly;
-    width: 800px;
-    background-color: black;
+    flex-direction: column;
+    width: 400px;
     color: white;
     margin: 10px auto;
     padding: 40px;
@@ -90,25 +111,50 @@ body {
     font-size: 18px;
     color: white;
     cursor: pointer;
+    border-radius: 10px;
 }
 .parentdiv3 {
     display: flex;
-    background-color: #FCF55F;
-    height: 600px;
     position: relative;
     justify-content: space-around;
-   background-color: #cc3300;
+    background-image: url("./image5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-top: 20px;
 }
 .creatediv{
     font-size: 60px;
-    margin: 100px 30px;
-    color:antiquewhite;
+    margin: 200px 30px;
+    color: black;
 }
 .orderedtext{
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 50px;
-    color: antiquewhite;
+    color: black;
+    font-family: Harrington;
+    margin-top: 200px;
 }
 .link{
     font-size: 40px;
+}
+.startdiv{
+    background-image: url(./image6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 600px;
+   
+}
+.titlediv{
+font-size: 50px;
+}
+.parent2text{
+    text-align: justify;
+    font-size: 30px;
+    width: 500px;
+    margin: 20px auto;
+    font-family: Harrington;
 }
