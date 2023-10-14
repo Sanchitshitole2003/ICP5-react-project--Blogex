@@ -18,7 +18,7 @@ function Navbar() {
           <Link to="/template" className="navbar_component">Template</Link>
           <Link to="/Signup" className="navbar_component sign">SignUp</Link>
         </div>
-        </div>
+      </div>
     </nav>
   );
 }

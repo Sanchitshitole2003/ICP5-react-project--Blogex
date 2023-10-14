@@ -1,14 +1,17 @@
 .navbar{
     background-color: black;
     padding: 5px;
-    width: 100%;    
+    display: flex;
+    font-size: 20px;
+    position: relative;
+    
     }
 
 .navbar-title{
     display: inline-block;
     color: whitesmoke;
-    margin-right: 100px;
-    font-size: large;
+    margin-left: 10px;
+    font-size: 30px;
 }
 .navbar_component{
     display: inline-block;
@@ -20,31 +23,16 @@
     text-align: center;
 }
 .icon{
-    width: 50px;
     background-color: white;
-
-}
-.navbar_container{
-    margin-top: 5px;
+    height: 80px;
+    margin-right:5px;
+    padding: 2px;
+    border-radius: 3px;
 }
 
 .brand_container{
     display: flex;
-    width: 200px;
-}
-
-.menu_container{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    width: 200px;
-}
-.login_container{
-    display: flex;
-    width: 200px;
-}
-.login{
-    margin-right: 0px;
+    width: 30%;
 }
 .sign{
     position: absolute;

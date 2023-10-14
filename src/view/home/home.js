@@ -3,8 +3,8 @@ import React, { useState, useEffect } from 'react';
 import image1 from './image1.png';
 import image2 from './image3.png';
 import imaget1 from './imaget1.jpg';
-import Navbar from '../../components/Navbar/Navbar';
-import Footer from '../../components/Footer/Footer';
+import Navbar from '../../Components/Navbar/Navbar';
+import Footer from '../../Components/Footer/Footer';
 /*import { Link } from 'react-router-dom';
 import Template from '../template/template';*/
 
