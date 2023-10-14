@@ -3,10 +3,15 @@ import React, { useState, useEffect } from 'react';
 import image1 from './image7.png';
 import image2 from './image3.png';
 import imaget1 from './imaget1.jpg';
+<<<<<<< HEAD
+import Navbar from '../../Components/Navbar/Navbar';
+import Footer from '../../Components/Footer/Footer';
+=======
 import Navbar from '../../components/Navbar/Navbar';
 import Template from '../template/template';
 import { Link } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
+>>>>>>> ca78eea5f8efd7b72896b7644079f2b697d69404
 /*import { Link } from 'react-router-dom';
 import Template from '../template/template';*/
 
