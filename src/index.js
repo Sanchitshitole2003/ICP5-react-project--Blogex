@@ -13,7 +13,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <About />,   
+    element: <About />,
   },
   {
     path: "/contact",
@@ -27,22 +27,17 @@ const router = createBrowserRouter([
     path: "/blogwriting",
     element: <BlogWriting />,
   },
+  {
+    path: '/template',
+    element: <Template />
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const router = createBrowserRouter([
-  {
-    path: '/template',
-    element: <Template/>
-  },
-  {
-    path: '/',
-    element: <Home/>
-  }])
 root.render(
-   <>
-  <Home/>
+  <>
+    <Home />
   </>
 );
 
