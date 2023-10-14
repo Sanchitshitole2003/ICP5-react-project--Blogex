@@ -1,6 +1,5 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from './view/home/home';
+import Contact from './view/contact/contact';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,11 +13,10 @@ const router = createBrowserRouter([
     path: '/home',
     element: <Home/>
   }])
-
 root.render(
-   <>
-  <Home/>
-  </>
+  <Contact />
+  
+
 );
 
 
