@@ -10,7 +10,6 @@ yellow: #FCF55F
 .parentdiv1 {
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
     background-image: url("./image2.jpg");
     background-position: center;
     background-repeat: no-repeat;

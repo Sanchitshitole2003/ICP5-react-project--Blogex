@@ -1,12 +1,10 @@
 import ReactDOM from 'react-dom/client';
-<<<<<<< HEAD
 import Home from './view/home/home';
-import
-=======
 import Contact from './view/contact/contact';
-
->>>>>>> 46f2495dbca3155216c85a8d635e35e4d4a8ca70
-
+import SignUp from './view/login-signup/signup';
+import Template from './view/template/template';
+import About from './view/about/about';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const router = createBrowserRouter([
@@ -15,13 +13,26 @@ const router = createBrowserRouter([
     element: <Template/>
   },
   {
-    path: '/home',
+    path: '/',
     element: <Home/>
-  }])
-root.render(
-  <Contact />
-  
+  },
+  {
+    path: '/about',
+    element: <About/>
+  },
+{
+  path: '/contact',
+  element: <Contact/>
+},
+{
+  path: '/Signup',
+  element: <SignUp/>
+},
+])
 
-);
+
+  root.render(
+<RouterProvider router={router}/>
+    );
 
 
