@@ -27,3 +27,20 @@
     padding-left: 10px;
     font-size: 18px;
 }
+
+.textarea {
+    height: 100px;
+}
+
+.para{
+    margin-left: 35px;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.para-1 {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}

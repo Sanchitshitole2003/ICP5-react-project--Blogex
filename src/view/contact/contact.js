@@ -27,7 +27,9 @@ export default function Contact() {
                         <div className='col m-3'>
                             <h2 className='mt-3 heading'>Reach Us:</h2>
                             <p className='para mt-3'>Head Office 🏡</p><br></br>
-                            <p className='para para-1'>404, Laxmi Heights, Above Lotus Multi-speciality Hospital Manjari  BK, Pune - 412307</p>
+                            <p className='para para-1'>404, Laxmi Heights, Above Lotus Multi-speciality Hospital Manjari  BK, Pune - 412307</p><br></br>
+                            <p className="para para-1">📱 8805803087, 7020407429</p><br></br>
+                            <p className='para para-1'>📩https://www.roadtocode.org/</p><br></br>
                         </div>
                     </div>
                 </div>
