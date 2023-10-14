@@ -1,7 +1,7 @@
 .navbar{
     background-color: black;
     padding: 5px;
-    
+    width: 100%;    
     }
 
 .navbar-title{
@@ -16,11 +16,29 @@
     color: whitesmoke;
 }
 .icon{
-    width: 20px;
+    width: 50px;
+    background-color: white;
 
+}
+.navbar_container{
+    margin-top: 5px;
 }
 
 .brand_container{
     display: flex;
-    width: 30%;
+    width: 200px;
+}
+
+.menu_container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 200px;
+}
+.login_container{
+    display: flex;
+    width: 200px;
+}
+.login{
+    margin-right: 0px;
 }
