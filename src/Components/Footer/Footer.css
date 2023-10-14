@@ -1,0 +1,68 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+.footer_container{
+    display: flex;
+}
+.name{
+    font-size: 30px;
+}
+.logo{
+    background-color: white;
+    height: 50px;
+    margin-right:5px;
+    padding: 2px;
+    border-radius: 3px;
+}
+.Help_container{
+    display: flex;
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.footer_component{
+    font-size: 20px;
+    display: block;
+    margin-left: 5px;
+}
+
+.help_title{
+    display: block;
+    width: 30px;
+    font-size: 30px;
+
+}
+.info_container{
+    display: flex;
+    width:300px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+.social_logo{
+    width: 30px;
+    display: block;
+}
+
+.info_title{
+    font-size: 30px;
+    display: block;
+}
+.social_logo_container{
+    display: flex;
+}
+.copyright{
+    display: block;
+    width: 300px;
+    margin: 5px auto;
+}
+
+.footer_component:hover{
+    background-color: darkgoldenrod;
+    color: black;
+}
+.social_logo_container:hover{
+    background-color: darkgoldenrod;
+    color: black;
+}

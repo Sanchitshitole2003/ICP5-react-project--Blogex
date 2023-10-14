@@ -16,8 +16,10 @@ function Navbar() {
       <Link to="/about" className="navbar_component">About</Link>
       <Link to="/contact" className="navbar_component">Contact</Link>
       <Link to="/signup" className="navbar_component sign">SignUp</Link>
+
       </div>
-    </nav>
+     
+    </nav >
   );
 }
 
