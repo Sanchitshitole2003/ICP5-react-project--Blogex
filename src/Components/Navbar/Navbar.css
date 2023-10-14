@@ -1,10 +1,7 @@
 .navbar{
     background-color: black;
-    padding: 10px;
-    display: flex;
-    font-size: 20px;
-    position: relative;
-    
+    padding: 5px;
+    width: 100%;    
     }
 
 .navbar-title{
@@ -24,13 +21,15 @@
     text-align: center;
 }
 .icon{
-    height: 50px;
+    width: 50px;
 }
+
 
 .brand_container{
     display: flex;
-    width: 30%;
+    width: 200px;
 }
+
 .sign{
     position: absolute;
     right: 10px;
