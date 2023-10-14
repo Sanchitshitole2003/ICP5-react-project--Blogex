@@ -1,40 +1,38 @@
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { RouterProvider, createBrowserRouter} from 'react-router-dom';
 import Home from './view/home/home';
-import Contact from "./view/contact/contact";
-import About from "./view/about/about";
-import BlogWriting from "./view/blogwriting/blogwriting";
-import Template from './view/template/template';
+import Contact from './view/contact/contact';
+import About from './view/about/about';
+import Blogdisplay from './view/blogdisplay/blogdisplay'
+import BlogWriting from './view/blogwriting/blogwriting';
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Home />,
+    path: '/',
+    element: <Home />
   },
   {
-    path: "/about",
-    element: <About />,
+    path: '/contact',
+    element: <Contact />
   },
   {
-    path: "/contact",
-    element: <Contact />,
-  },
- 
-  {
-    path: "/blogwriting",
-    element: <BlogWriting />,
+    path: '/about',
+    element: <About />
   },
   {
-    path: '/template',
-    element: <Template />
+    path: "/blogdisplay",
+    element: <Blogdisplay />,
+  },
+  {
+    path: '/blogwriting',
+    element: <BlogWriting />
   },
 ]);
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <>
-    <RouterProvider router={router}/>
+    <Home />
   </>
 );
 
