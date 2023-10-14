@@ -1,10 +1,13 @@
 import './contact.css';
+import Navbar from '../../Components/Navbar/Navbar';
+import Footer from '../../Components/Footer/Footer';
 
 export default function Contact() {
     return(
         <div className='body_bg layout_padding'>
             <section className='contact_section'>
                 <div className='container'>
+                <Navbar />
                 <h1 className='m-3 p-1 text-center fs-15'>Contact Us</h1>
                 <p className='text-center from-control-lg m-0 p-0'>Let's Get In Touch!</p>
                 </div>
@@ -20,10 +23,17 @@ export default function Contact() {
                             <input type="text" placeholder="Enter Your Massage (Optional):" className="text textarea"/>
                             <button class="btn-size" onclick="submit()">Submit</button>
                         </div>
+
+                        <div className='col m-3'>
+                            <h2 className='mt-3 heading'>Reach Us:</h2>
+                            <p className='para mt-3'>Head Office 🏡</p><br></br>
+                            <p className='para para-1'>404, Laxmi Heights, Above Lotus Multi-speciality Hospital Manjari  BK, Pune - 412307</p>
+                        </div>
                     </div>
                 </div>
             </section>
+            <Footer />
         </div>
 
-    )
-}
+    );
+};
