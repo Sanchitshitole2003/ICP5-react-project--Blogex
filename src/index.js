@@ -3,8 +3,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from './view/home/home';
 import Contact from "./view/contact/contact";
 import About from "./view/about/about";
-import Blog from "./view/blogdisplay/blogdisplay";
 import BlogWriting from "./view/blogwriting/blogwriting";
+import Template from './view/template/template';
 
 const router = createBrowserRouter([
   {
@@ -19,10 +19,7 @@ const router = createBrowserRouter([
     path: "/contact",
     element: <Contact />,
   },
-  {
-    path: "/blogdisplay",
-    element: <Blog />,
-  },
+ 
   {
     path: "/blogwriting",
     element: <BlogWriting />,
@@ -37,7 +34,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <>
-    <Home />
+    <RouterProvider router={router}/>
   </>
 );
 
