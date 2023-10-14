@@ -1,0 +1,32 @@
+.page-title-wrapper{
+    background-color: #FFFF00;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.text-center{
+    text-align: center!important;
+}
+
+.ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.page-title{
+    color: #36454F;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Roboto,sans-serif;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.mb-25{
+    margin-bottom: 25px;
+}

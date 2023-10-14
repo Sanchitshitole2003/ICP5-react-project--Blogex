@@ -3,11 +3,12 @@ import React, { useState, useEffect } from 'react';
 import image1 from './image1.png';
 import image2 from './image3.png';
 import imaget1 from './imaget1.jpg';
-import { Link } from 'react-router-dom';
-import Template from '../template/template';
+/*import { Link } from 'react-router-dom';
+import Template from '../template/template';*/
+import Navbar from '../../components/Navbar/Navbar';
 export default function Home() {
     return (
-        <> 
+        <> <Navbar/>
             <div className='parentdiv1'>
                 <div classname='containerdiv1'>
                     <h1 className='titlehome'>Create a blog</h1>
