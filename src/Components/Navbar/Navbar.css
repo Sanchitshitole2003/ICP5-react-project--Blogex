@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +32,10 @@
     justify-content: space-between;
 }
 
+
 .navbar_component {
+    display: inline-block;
+    margin: 15px 30px;
     color: whitesmoke;
     text-decoration: none;
     height: 25px;
@@ -51,7 +55,6 @@
     display: flex;
     width: 200px;
 }
-
 .menu_container {
     margin-left: auto;
     margin-right: auto;
@@ -68,16 +71,16 @@
     margin-right: 0px;
 }
 
-/* 
 .sign {
     position: absolute;
     right: 10px;
-} */
+}
 
-/* .navbar_component:hover{
+.navbar_component:hover {
+
     background-color: darkgoldenrod;
     color: black;
-} */
+} 
 
 .nav-btn {
     padding-block: .8rem;
@@ -91,10 +94,50 @@
     border-bottom: 2px solid #FCF55F;
 }
 
+
 .nav-btn:hover {
     transform: scale(.98);
     transition-duration: .7s;
     background-color: #FCF55F;
     border: 2px solid #000;
     color: black;
+  }
+@media screen and (min-width:730px) and (max-width:960px) {
+    .navbar-title {
+        font-size: 20px;
+    }
+
+    .navbar_component {
+        margin: 15px 30px;
+        height: 20px;
+        width: 30px;
+        font-size: 18px;
+    }
+    .brand_container {
+        width: 150px;
+    }
+    .icon {
+        width: 40px;
+
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:730px) {
+    .navbar-title {
+        font-size: 17px;
+    }
+
+    .navbar_component {
+        margin: 15px 30px;
+        height: 15px;
+        width: 13px;
+        font-size: 15px;
+    }
+    .brand_container {
+        width: 70px;
+    }
+    .icon {
+        width: 30px;
+
+    }
 }

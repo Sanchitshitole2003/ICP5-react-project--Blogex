@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./signup.css";
 import { Link, useNavigate } from 'react-router-dom';
-// import Navbar from "../../Components/Navbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
+
 
 function SignUp() {
 
