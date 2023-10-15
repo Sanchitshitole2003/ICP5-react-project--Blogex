@@ -86,7 +86,7 @@ export default function About() {
                 <h className='name'>Sayali Kohad</h>
                <div className='textabout'> 
                <div><img src={linkedin} className='logo1'/>sayali-kohad-7a7a47255</div>
-               <div><img src={github} className='logo1'/>https://github.com/hemantgaikwad13</div>
+               <div><img src={github} className='logo1'/>https://github.com/sayalikohad</div>
                </div>
                </div>
 
@@ -97,7 +97,7 @@ export default function About() {
                 <h className='name'>Vaishnavi Ambarte</h>
                <div className='textabout'> 
                <div><img src={linkedin} className='logo1'/>vaishnavi-ambarte-13259327b</div>
-               <div><img src={github} className='logo1'/>https://github.com/hemantgaikwad13</div>
+               <div><img src={github} className='logo1'/>https://github.com/vaishnaviambarte</div>
                </div>
                </div>
 
@@ -108,7 +108,7 @@ export default function About() {
                 <h className='name'>Sanchit Shitole</h>
                <div className='textabout'> 
                <div><img src={linkedin} className='logo1'/>sanchit-shitole</div>
-               <div><img src={github} className='logo1'/>https://github.com/hemantgaikwad13</div>
+               <div><img src={github} className='logo1'/>https://github.com/Sanchitshitole2003</div>
                </div>
                </div>
 
