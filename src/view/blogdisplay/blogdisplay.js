@@ -22,7 +22,7 @@ function Blogdisplay() {
             if (hours >= 12 && hours < 17) {
                 message = "Happy Productive Afternoon";
             }
-            else if (hours >= 17 && hours <= 5) {
+            else if (hours >= 17) {
                 message = "Have a Relaxed Night";
             }
 

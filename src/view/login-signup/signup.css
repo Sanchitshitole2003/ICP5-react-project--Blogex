@@ -31,7 +31,8 @@ form {
 
 form input {
     width: 75%;
-    padding-block: .7rem;
+    padding-top: .4rem;
+    padding-bottom: .6rem;
     padding-inline: .1rem;
     margin-top: .1rem;
     outline: none;
@@ -76,4 +77,53 @@ form label {
     transform: scale(.92);
     transition-duration: .7s;
     text-shadow: 1px 1px 2px #000000;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    form {
+        width: 100%;
+    }
+
+    .signup-btn {
+        padding-block: .3rem;
+        margin-bottom: -1rem;
+    }
+
+
+    form input {
+        margin-top: 0;
+        width: 80%;
+        padding-top: .3rem;
+        padding-bottom: .3rem;
+    }
+
+    form label {
+        width: 80%;
+        font-size: .7rem;
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+    .lowbtn-div {
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+
+    form {
+        width: 85%;
+    }
+
+    .lowbtn-div {
+        margin-top: 1rem;
+    }
+
+    .signup-btn {
+        padding-block: .5rem;
+
+    }
 }

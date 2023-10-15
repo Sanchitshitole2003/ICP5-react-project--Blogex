@@ -23,3 +23,15 @@
     padding: 1rem;
 
 }
+
+@media screen and (max-width: 480px) {
+    .login-div>form{
+        width: 100%;
+    }
+    .signup-btn{
+        padding-block: .3rem;
+    }
+    .lowbtn-div{
+        margin-top: 1rem;
+    }
+}
