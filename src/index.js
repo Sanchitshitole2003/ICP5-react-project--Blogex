@@ -48,6 +48,10 @@ const router = createBrowserRouter([
     path: '/coding',
     element: <Coding/>
   },
+  {
+    path:'/blogdisplay',
+    element: <Blogdisplay/>
+  }
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

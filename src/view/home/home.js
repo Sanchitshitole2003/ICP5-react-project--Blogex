@@ -8,14 +8,15 @@ import { Link } from 'react-router-dom';
 import Footer from '../../Components/Footer/Footer';
 export default function Home() {
     return (
-        <> <Navbar/>
-        <div class="startdiv">
+        <> 
+        <Navbar/>
+        <div className="startdiv">
 
          <h1 className='titlediv'>BLOGEX</h1>
          <h3 className='titlesubdiv'>Express your knowledge and Experience</h3>
         </div>
             <div className='parentdiv1'> 
-                <div classname='container1'>
+                <div className='container1'>
                     <h1 className='titlehome'>Create a blog</h1>
                     <div className='titletexthome'>Share your story with the world.
                         Stand out with a professionally-designed blog website that can be customized to fit your brand.

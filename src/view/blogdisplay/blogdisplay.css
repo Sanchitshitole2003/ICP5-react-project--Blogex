@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.logout-btn{
+    position: fixed;
+    right: 0;
+    margin-top: .5rem;
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    cursor: pointer;
+    background-color: transparent;
+    border-left: 2px solid #FCF55F;
+    border-bottom: 2px solid #FCF55F;
+    color: white;
+    font-size: 1rem;
+
+}
+
+.logout-btn:hover{
+    background-color: black;
+    color: #ffee00;
+    transform: scale(.97);
+    transition-duration: .7s;
+    border-color: #FCF55F;
+    
+}

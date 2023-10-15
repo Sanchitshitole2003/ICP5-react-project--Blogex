@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./signup.css";
 import { Link, useNavigate } from 'react-router-dom';
-import Navbar from "../../Components/Navbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
+
 
 function SignUp() {
 
@@ -65,7 +66,7 @@ function SignUp() {
 
     return (
         <>
-        <Navbar/>
+            {/* <Navbar/> */}
             <div className="form-div">
                 <h3>
                     CREATE YOUR ACCOUNT
@@ -89,7 +90,7 @@ function SignUp() {
 
                 </form>
 
-                <div style={{
+                <div className="lowbtn-div" style={{
                     display: 'flex', width: '35%', justifyContent: 'space-around'
                 }}>
                     <Link to="/" className="back-btn" >
