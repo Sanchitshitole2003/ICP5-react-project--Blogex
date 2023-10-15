@@ -1,7 +1,7 @@
 import './about.css'
 import image1 from './image1.jpg';
-import Navbar from '../../components/Navbar/Navbar';
-import Footer from '../../components/Footer/Footer';
+import Navbar from '../../../src/Components/Navbar/Navbar';
+import Footer from '../../../src/Components/Footer/Footer';
 import image2 from './noor.jpg';
 import image3 from './sachi.jpg';
 import image4 from './ajinkya.jpg';

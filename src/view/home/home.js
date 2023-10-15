@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react';
 import image1 from './image7.png';
 import image2 from './image3.png';
 import imaget1 from './imaget1.jpg';
-import Navbar from '../../components/Navbar/Navbar';
+import Navbar from '../../../src/Components/Navbar/Navbar';
 import { Link } from 'react-router-dom';
-import Footer from '../../components/Footer/Footer';
+import Footer from '../../../src/Components/Footer/Footer';
 export default function Home() {
     return (
         <> <Navbar/>
@@ -20,7 +20,7 @@ export default function Home() {
                     <div className='titletexthome'>Share your story with the world.
                         Stand out with a professionally-designed blog website that can be customized to fit your brand.
                         Build, manage, and promote your blog with blogex built-in suite of design and marketing tools.</div>
-                    <button className='btnhm1'>Create Blog</button>
+                        <Link to="/ContentHome"><button className='btnhm1'>Create Blog</button></Link>
                 </div>
 
                <div>

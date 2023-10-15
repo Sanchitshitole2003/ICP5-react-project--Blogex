@@ -7,7 +7,7 @@ import BlogWriting from "./view/blogwriting/blogwriting";
 import Popular from './view/Popular/popular';
 import SignUp from './view/login-signup/signup';
 import Login from './view/login-signup/login';
-import Blogdisplay from './view/blogdisplay/blogdisplay'
+import ContentHome from './view/ContentHome/ContentHome';
 import Tea from './view/Popular/popularcontents/tea';
 import Coding from './view/Popular/popularcontents/coding';
 
@@ -29,8 +29,8 @@ const router = createBrowserRouter([
     element: <Popular/>,
   },
   {
-    path: '/blogwriting',
-    element: <BlogWriting />
+    path: '/ContentHome',
+    element: <ContentHome />
   },
   {
     path: '/signup',

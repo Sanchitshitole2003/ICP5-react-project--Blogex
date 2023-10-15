@@ -1,0 +1,80 @@
+
+  .Blog-card {
+    width: 60hv;
+  margin: 5%;
+    justify-content: center;
+    /* margin: 30hv; */
+   min-height:300px;
+   height:auto;
+   max-height: fit-content;
+    border: 3px solid  rgb(76, 70, 65);
+    border-radius: 20px;
+    display: flex;
+}
+
+.Blog-image {
+    min-width: 300px;
+    max-width: 400px;
+    width: auto;
+    min-height:300px;
+   height:auto;
+   border-radius: 20px 0 0 20px;
+   max-height: max-content;
+    background-image: url('/src/view/ContentHome/blogging.jpg');
+    background-size: cover;
+}
+
+.Blog-info {
+  color: rgb(0, 0, 0);
+    flex: 1;
+    border-radius: 0px 20px 20px 0;
+    padding: 15px;
+    box-sizing: border-box;
+  min-width:250px;
+    width: auto;
+    max-width: 60hv;
+      min-height:300px;
+   height:auto;
+   max-height: max-content;
+  word-wrap:break-word;
+  background-color:rgb(255, 234, 208);
+}
+.Blog-info p{
+    font-size:x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+}
+
+
+.Edit-btn{ 
+  font-size: 10px;
+}
+.Edit-btn:hover{
+  color: #fdff73;
+  background-color: rgba(44, 117, 55, 0.823);
+  transform: scale(1.2);
+  transition:  ease-out .3s;
+}
+.btn{
+  height: 40px;
+  width: 90px;
+  margin: 8px;
+  border: 1px solid black;
+    border-radius: 10px;
+    padding: 8px 17px;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    background-color:rgb(255, 234, 208);
+    color:black ;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.btn:hover{
+  font-size: larger;
+  box-shadow: 2px 2px 2px 2px #454545;
+}
+.Delete-btn:hover {
+  background-color: #ff594de7;
+  transform: scale(1.2);
+  transition:  ease-out .3s;
+}
