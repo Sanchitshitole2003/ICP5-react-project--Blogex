@@ -1,0 +1,18 @@
+# BLOGEX
+### Blogex is a blog website which contains many blog post within itself. Blogex website is a site that is updated with new information on an ongoing basis and normally consists of a collection of posts.One of the greatest benefits of blogging is that it helps you connect and build relationships with leads and customers.If you are starting from scratch,the blogging platform 'BLOGEX' allow you to get started for free.
+
+
+## <u>Home page</u>
+![Home page screenshot](./src/home1.png)
+<br/> <br/>
+
+![Home page screenshot](./src/home2.png)
+
+## <u>Popular Blogs page
+
+![Popular page screenshot](./src/popular.png)
+
+## <u>Signup page
+
+![Signup page screenshot](./src/signup.png)
+
