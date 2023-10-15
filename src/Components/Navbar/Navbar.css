@@ -11,7 +11,8 @@
     display: inline-block;
     color: whitesmoke;
     margin-right: 100px;
-    font-size: large;
+    font-size: 30px;
+    margin-top: 10px;
 }
 .navbar_component{
     display: inline-block;
@@ -24,8 +25,7 @@
     font-size: 20px;
 }
 .icon{
-    width: 50px;
-    background-color: white;
+    height: 50px;
 
 }
 .navbar_container{

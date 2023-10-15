@@ -2,30 +2,33 @@
     background-color: black;
     color: white;
     padding: 3px;
+   /* position:fixed;
+    bottom: 0px;*/
 }
 .footer_container{
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    width: 80vw;
 }
 .name{
     font-size: 30px;
 }
 .logo{
-    background-color: white;
     height: 50px;
     margin-right:5px;
     padding: 2px;
     border-radius: 3px;
 }
 .Help_container{
-    display: flex;
+    
     width: 300px;
     margin-bottom: 5px;
-    flex-wrap: wrap;
+   
 }
 
 .footer_component{
-    font-size: 20px;
+    font-size: 15px;
     display: block;
     margin-left: 5px;
 }
