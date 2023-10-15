@@ -16,3 +16,8 @@
 
 ![Signup page screenshot](./src/signup.png)
 
+## Contributors
+
+<a href="https://github.com/noorshaikh123/ICP5-react-project--Blogex/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=noorshaikh123/ICP5-react-project--Blogex" />
+</a>
