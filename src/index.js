@@ -8,6 +8,8 @@ import Popular from './view/Popular/popular';
 import SignUp from './view/login-signup/signup';
 import Login from './view/login-signup/login';
 import Blogdisplay from './view/blogdisplay/blogdisplay'
+import Tea from './view/Popular/popularcontents/tea';
+import Coding from './view/Popular/popularcontents/coding';
 
 const router = createBrowserRouter([
   {
@@ -16,7 +18,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/contact',
-    element: <Contact />
+    element: <Contact/>
   },
   {
     path: '/about',
@@ -37,6 +39,14 @@ const router = createBrowserRouter([
   {
     path: '/login',
     element: <Login/>
+  },
+  {
+    path: '/tea',
+    element: <Tea/>
+  },
+  {
+    path: '/coding',
+    element: <Coding/>
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));

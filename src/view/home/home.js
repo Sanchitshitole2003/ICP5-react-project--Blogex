@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <> <Navbar/>
         <div class="startdiv">
-            <br/><br/><br/><br/><br/><br/>
+
          <h1 className='titlediv'>BLOGEX</h1>
          <h3 className='titlesubdiv'>Express your knowledge and Experience</h3>
         </div>

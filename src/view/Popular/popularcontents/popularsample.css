@@ -1,0 +1,31 @@
+.heading{
+    font-size: 40px;
+    text-align: center;
+    font-family: Harrington;
+    color:antiquewhite;
+}
+.mainsampleparent{
+    width: 98vw;
+    
+    text-align: center;
+}
+.sampleimg{
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px yellow;
+}
+.sampletext{
+    font-size: 20px;
+    color: antiquewhite;
+    width: 60vw;
+    text-align: justify;
+}
+.sampleparent{
+    display: flex;
+    justify-content: space-around;
+
+}
+.by{
+    font-size: 20px;
+    color: antiquewhite;
+}

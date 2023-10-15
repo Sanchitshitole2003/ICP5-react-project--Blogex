@@ -1,13 +1,18 @@
 import './contact.css';
-import Navbar from '../../Components/Navbar/Navbar';
-import Footer from '../../Components/Footer/Footer';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
+import Github from './github.png';
+import Linkedin from './linkedin.jpg';
+import Twitter from './twitter-2.png';
+import Instagram from './in.jpg';
 
 export default function Contact() {
     return(
+        <>
+        <Navbar/>
         <div className='body_bg layout_padding'>
             <section className='contact_section'>
                 <div className='container'>
-                <Navbar />
                 <h1 className='m-3 p-1 text-center fs-15'>Contact Us</h1>
                 <p className='text-center from-control-lg m-0 p-0'>Let's Get In Touch!</p>
                 </div>
@@ -35,7 +40,7 @@ export default function Contact() {
                         <div>
                             <h3 className='mt-1 heading'>Social</h3>
                             <ul>
-                                <list> <img src={GitHub} alt="" /> www.linkedin.com</list> 
+                                <list> <img src={Github} alt="" /> www.linkedin.com</list> 
 
                                 <list> <img src={Linkedin} alt="" /> www.linkedin.com</list>
                                 
@@ -47,8 +52,8 @@ export default function Contact() {
                     </div>
                 </div>
             </section>
+            </div>
             <Footer />
-        </div>
-
+</>
     );
 };
