@@ -3,19 +3,20 @@ import React, { useState, useEffect } from 'react';
 import image1 from './image7.png';
 import image2 from './image3.png';
 import imaget1 from './imaget1.jpg';
-import Navbar from '../../components/Navbar/Navbar';
+import Navbar from '../../Components/Navbar/Navbar';
 import { Link } from 'react-router-dom';
-import Footer from '../../components/Footer/Footer';
+import Footer from '../../Components/Footer/Footer';
 export default function Home() {
     return (
-        <> <Navbar/>
-        <div class="startdiv">
+        <> 
+        <Navbar/>
+        <div className="startdiv">
 
          <h1 className='titlediv'>BLOGEX</h1>
          <h3 className='titlesubdiv'>Express your knowledge and Experience</h3>
         </div>
             <div className='parentdiv1'> 
-                <div classname='container1'>
+                <div className='container1'>
                     <h1 className='titlehome'>Create a blog</h1>
                     <div className='titletexthome'>Share your story with the world.
                         Stand out with a professionally-designed blog website that can be customized to fit your brand.

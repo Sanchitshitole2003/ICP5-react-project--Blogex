@@ -1,16 +1,21 @@
 import "./signup";
 import { useState } from "react";
-import {Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import {toast, ToastContainer} from 'react-toastify'
+import 'react-toastify/ReactToastify.css';
 import "./login.css"
 
 function Login() {
     const history = useNavigate();
+    const [loggedIn, setLoggedIn] = useState(false)
+
     const [inputdata, setInputdata] = useState(
         {
             email: '',
             password: ''
         }
     )
+
 
     const getData = (e) => {
         const { value, name } = e.target;
@@ -23,9 +28,10 @@ function Login() {
     }
 
     // const [data, setData] = ([]);
+    const handleLogin = () => {
 
-    const addData = (e) => {
-        e.preventDefault();
+        // const addData = () => {
+        // e.preventDefault();
 
         const getUserArray = localStorage.getItem('usersaveddata');
         console.log(getUserArray);
@@ -34,15 +40,21 @@ function Login() {
         const { email, password } = inputdata;
 
         if (!email) {
-            alert('Email is required');
+            toast.error('email field is requred', {
+                position: "top-center",
+            });
 
         }
         else if (!password) {
-            alert('Password is required');
+            toast.error('email field is requred', {
+                position: "top-center",
+            });
 
         }
         else if (password.length < 6) {
-            alert('Password length must be more than 6');
+            toast.error('Password length must be more than 6', {
+                position: "top-center",
+            });
         }
 
         else {
@@ -53,13 +65,19 @@ function Login() {
                 });
 
                 if (userlogin.length === 0) {
-                    alert('inavalid information')
+                    toast.error('Invalid Details', {
+                        position: "top-center",
+                    });
                 }
+
                 else {
-                    console.log('logged in successfully');
+                    toast.success('Logged In Successfully', {
+                        position: "top-center",
+                    });
 
                     localStorage.setItem('userlogininfo', JSON.stringify(userlogin))
-                    history('/');
+                    history('/blogdisplay');
+                    setLoggedIn(true);
                 }
 
             }
@@ -68,6 +86,12 @@ function Login() {
 
     }
 
+    // const handleLogout = () => {
+    //     localStorage.removeitem('userlogininfo')
+    //     history('/');
+    //     setLoggedIn(false);
+    // }
+// 
 
     return (
         <>
@@ -83,9 +107,11 @@ function Login() {
                     <label htmlFor="password">PASSWORD</label>
                     <input type="text" name="password" onChange={getData} placeholder="Password" id="password" />
 
-                    <button className="signup-btn" onClick={addData} type="submit" >
+                    <button className="signup-btn" onClick={handleLogin} type="submit" >
                         LOGIN
                     </button>
+
+
 
                 </form>
 
@@ -102,6 +128,7 @@ function Login() {
                 </div>
 
             </div>
+            <ToastContainer/>
         </>
     )
 };
