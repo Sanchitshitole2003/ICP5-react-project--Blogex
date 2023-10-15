@@ -18,7 +18,7 @@ function Navbar() {
       <Link to="/signup" className="navbar_component sign">SignUp</Link>
 
       </div>
-     
+
     </nav >
   );
 }

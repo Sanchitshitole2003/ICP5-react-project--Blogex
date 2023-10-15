@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     background-color: black;
     padding: 2px 5px;
     width: 100%;
@@ -8,14 +8,15 @@
     box-shadow: 0px 0.5px 4px 0.2px white;
     }
 
-.navbar-title{
+.navbar-title {
     display: inline-block;
     color: whitesmoke;
     margin-right: 100px;
     font-size: 30px;
     margin-top: 10px;
 }
-.navbar_component{
+
+.navbar_component {
     display: inline-block;
     margin: 15px 30px;
     color: whitesmoke;
@@ -29,33 +30,63 @@
     height: 50px;
 
 }
-.navbar_container{
+
+.navbar_container {
     margin-top: 5px;
 }
 
-.brand_container{
+.brand_container {
     display: flex;
     width: 200px;
 }
 
-.menu_container{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    width: 200px;
-}
-.login_container{
-    display: flex;
-    width: 200px;
-}
-.login{
-    margin-right: 0px;
-}
-.sign{
+
+.sign {
     position: absolute;
     right: 10px;
 }
-.navbar_component:hover{
+
+.navbar_component:hover {
     background-color: darkgoldenrod;
     color: black;
+}
+
+@media screen and (min-width:730px) and (max-width:960px) {
+    .navbar-title {
+        font-size: 20px;
+    }
+
+    .navbar_component {
+        margin: 15px 30px;
+        height: 20px;
+        width: 30px;
+        font-size: 18px;
+    }
+    .brand_container {
+        width: 150px;
+    }
+    .icon {
+        width: 40px;
+
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:730px) {
+    .navbar-title {
+        font-size: 17px;
+    }
+
+    .navbar_component {
+        margin: 15px 30px;
+        height: 15px;
+        width: 13px;
+        font-size: 15px;
+    }
+    .brand_container {
+        width: 70px;
+    }
+    .icon {
+        width: 30px;
+
+    }
 }

@@ -2,14 +2,15 @@
     background-color: black;
     color: white;
     padding: 3px;
-   /* position:fixed;
-    bottom: 0px;*/
 }
 .footer_container{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     width: 80vw;
+    flex-wrap: wrap;
+}
+.website_info{
+    margin: 5px 20px 5px 5px;
 }
 .name{
     font-size: 30px;
@@ -23,7 +24,7 @@
 .Help_container{
     
     width: 300px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
    
 }
 
@@ -42,7 +43,7 @@
 .info_container{
     display: flex;
     width:300px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-right: 0px;
     flex-wrap: wrap;
 }
