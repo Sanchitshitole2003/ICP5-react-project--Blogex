@@ -5,13 +5,15 @@
     display: flex;
     font-size: 20px;
     position: relative;
-}
+    box-shadow: 0px 0.5px 4px 0.2px white;
+    }
 
 .navbar-title {
     display: inline-block;
     color: whitesmoke;
     margin-right: 100px;
     font-size: 30px;
+    margin-top: 10px;
 }
 
 .navbar_component {
@@ -24,10 +26,8 @@
     text-align: center;
     font-size: 20px;
 }
-
-.icon {
-    width: 50px;
-    background-color: white;
+.icon{
+    height: 50px;
 
 }
 

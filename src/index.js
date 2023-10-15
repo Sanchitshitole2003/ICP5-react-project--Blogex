@@ -4,10 +4,12 @@ import Home from './view/home/home';
 import Contact from "./view/contact/contact";
 import About from "./view/about/about";
 import BlogWriting from "./view/blogwriting/blogwriting";
-import Template from './view/template/template';
+import Popular from './view/Popular/popular';
 import SignUp from './view/login-signup/signup';
 import Login from './view/login-signup/login';
 import Blogdisplay from './view/blogdisplay/blogdisplay'
+import Tea from './view/Popular/popularcontents/tea';
+import Coding from './view/Popular/popularcontents/coding';
 
 const router = createBrowserRouter([
   {
@@ -16,15 +18,15 @@ const router = createBrowserRouter([
   },
   {
     path: '/contact',
-    element: <Contact />
+    element: <Contact/>
   },
   {
     path: '/about',
     element: <About />
   },
   {
-    path: "/blogdisplay",
-    element: <Blogdisplay />,
+    path: "/popular",
+    element: <Popular/>,
   },
   {
     path: '/blogwriting',
@@ -38,12 +40,20 @@ const router = createBrowserRouter([
     path: '/login',
     element: <Login/>
   },
+  {
+    path: '/tea',
+    element: <Tea/>
+  },
+  {
+    path: '/coding',
+    element: <Coding/>
+  },
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <>
-    <RouterProvider router={router}/>
+    <RouterProvider router={router} />
   </>
 );
 

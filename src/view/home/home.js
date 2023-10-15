@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <> <Navbar/>
         <div class="startdiv">
-            <br/><br/><br/><br/><br/><br/>
+
          <h1 className='titlediv'>BLOGEX</h1>
          <h3 className='titlesubdiv'>Express your knowledge and Experience</h3>
         </div>
@@ -45,7 +45,7 @@ export default function Home() {
                         <h2>Work From home</h2>
                         <h3>Work From home is an easy way to offer your availabilty without your physical presence in the office</h3> </div>
                     </div>
-                   <Link to="/template"><button className='btnhm2'>Visit Template</button></Link>
+                   <Link to="/popular"><button className='btnhm2'>Visit Popular</button></Link>
             </div>
             
             
@@ -56,7 +56,7 @@ export default function Home() {
                 </div>
                 <div className='orderedtext'>
                     <ol>
-                        <li>Choose a website template to showcase your blog.</li><br/>
+                        <li>Choose a website Popular to showcase your blog.</li><br/>
                         <li>Add a Blog Page and customize the layout and design of your blog.</li><br/>
                         <li>Create, publish, and manage content with blog and image editing tools.</li>
                     </ol>
