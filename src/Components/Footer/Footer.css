@@ -6,8 +6,8 @@
 .footer_container{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     width: 80vw;
+    flex-wrap: wrap;
 }
 .website_info{
     margin: 5px 20px 5px 5px;
