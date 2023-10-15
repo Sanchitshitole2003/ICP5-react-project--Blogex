@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react';
 import image1 from './image7.png';
 import image2 from './image3.png';
 import imaget1 from './imaget1.jpg';
-import Navbar from '../../components/Navbar/Navbar';
+import Navbar from '../../Components/Navbar/Navbar';
 import { Link } from 'react-router-dom';
-import Footer from '../../components/Footer/Footer';
+import Footer from '../../Components/Footer/Footer';
 export default function Home() {
     return (
         <> <Navbar/>
@@ -62,6 +62,7 @@ export default function Home() {
                     </ol>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }
