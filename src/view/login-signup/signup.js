@@ -9,12 +9,13 @@ function SignUp() {
 
     const [inputdata, setInputdata] = useState(
         {
-            name: '',
-            date: '',
-            email: '',
-            password: ''
+            name: "",
+            date: "",
+            email: "",
+            password: ""
         }
     )
+    const [data, setData] = useState([]);
 
     const getData = (e) => {
         const { value, name } = e.target;
@@ -23,14 +24,12 @@ function SignUp() {
         // will be fetched in inputdata in format of [name]:value i.e., key-value pairs; 
         //name : 'mira' email :'mira@gmail.com', so on
 
-        setInputdata(() => {
-            return {
-                ...inputdata, [name]: value
-            }
+        setInputdata({
+            ...inputdata, [name]: value
         })
     }
 
-    const [data, setData] = ([]);
+
 
     const addData = (e) => {
         e.preventDefault();
@@ -57,8 +56,8 @@ function SignUp() {
         else {
             console.log("data added succesfully");
             history("/login")
-            localStorage.setItem('usersaveddata',JSON.stringify([...data,inputdata]));
-                      
+            localStorage.setItem('usersaveddata', JSON.stringify([...data, inputdata]));
+
         }
 
     }
@@ -91,7 +90,7 @@ function SignUp() {
                 </form>
 
                 <div style={{
-                    display:'flex',  width:'35%', justifyContent:'space-around'
+                    display: 'flex', width: '35%', justifyContent: 'space-around'
                 }}>
                     <Link to="/" className="back-btn" >
                         BACK
