@@ -26,6 +26,6 @@
 
 ## Contributors
 
-<a href="https://github.com/noorshaikh123/ICP5-react-project--BlogUs/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=noorshaikh123/ICP5-react-project--BlogUs" />
+<a href="https://github.com/noorshaikh123/ICP5-react-project--Blogex/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=noorshaikh123/ICP5-react-project--Blogex" />
 </a>
