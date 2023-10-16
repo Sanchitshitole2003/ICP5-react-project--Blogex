@@ -25,7 +25,7 @@
     onClick={()=>{
       deleteBlog(date);
     }
-    }>delete
+    }>Delete
     </button>    
   
           </div>

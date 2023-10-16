@@ -10,10 +10,9 @@ import image5 from './imagep5.jpg';
 import image6 from './imagep6.jpg';
 import image7 from './imagep7.png';
 import { Link } from 'react-router-dom';
+
 export default function Popular() {
     return (
-
-
 <>
 <Navbar/>
 <div className='parent'>
@@ -22,7 +21,7 @@ export default function Popular() {
       <img src={image8} className='popimg'/>  
     </div>
     <div className='title'>Tea is life</div>
-    <Link to="/tea"><button className='btn'>Read Blog</button></Link>
+    <Link to="/tea"><button className='btnpo'>Read Blog</button></Link>
 </div>
 
 <div className='divparent'>
@@ -30,7 +29,7 @@ export default function Popular() {
       <img src={image1} className='popimg'/>  
     </div>
     <div className='title'>Is Coding a boon?</div>
-    <Link to="/coding"><button className='btn'>Read Blog</button></Link>
+    <Link to="/coding"><button className='btnpo'>Read Blog</button></Link>
 </div>
 
 <div className='divparent'>
@@ -38,7 +37,7 @@ export default function Popular() {
       <img src={image2} className='popimg'/>  
     </div>
     <div className='title'>Unconditional love of mother</div>
-    <button className='btn'>Read Blog</button>
+    <button className='btnpo'>Read Blog</button>
 </div>
 
 <div className='divparent'>
@@ -46,7 +45,7 @@ export default function Popular() {
       <img src={image3} className='popimg'/>  
     </div>
     <div className='title'>AI v/s human</div>
-    <button className='btn'>Read Blog</button>
+    <button className='btnpo'>Read Blog</button>
 </div>
 
 <div className='divparent'>
@@ -54,7 +53,7 @@ export default function Popular() {
       <img src={image4} className='popimg'/>  
     </div>
     <div className='title'>The love of CAR's</div>
-    <button className='btn'>Read Blog</button>
+    <button className='btnpo'>Read Blog</button>
 </div>
 
 <div className='divparent'>
@@ -62,7 +61,7 @@ export default function Popular() {
       <img src={image5} className='popimg'/>  
     </div>
     <div className='title'>Can burger be a life threat?</div>
-    <button className='btn'>Read Blog</button>
+    <button className='btnpo'>Read Blog</button>
 </div>
 
 <div className='divparent'>
@@ -70,7 +69,7 @@ export default function Popular() {
       <img src={image6} className='popimg'/>  
     </div>
     <div className='title'>The day of Graduation</div>
-    <button className='btn'>Read Blog</button>
+    <button className='btnpo'>Read Blog</button>
 </div>
 
 <div className='divparent'>
@@ -78,7 +77,7 @@ export default function Popular() {
       <img src={image7} className='popimg'/>  
     </div>
     <div className='title'>Make money through business</div>
-    <button className='btn'>Read Blog</button>
+    <button className='btnpo'>Read Blog</button>
 </div>
 </div>
 <Footer/>

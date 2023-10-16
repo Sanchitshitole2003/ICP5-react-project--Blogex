@@ -53,7 +53,7 @@ export default function Home() {
             <div className='parentdiv3'>
                 <div className='creatediv'>
                     How to create a BLOG?
-                    <button className='btnhm2'>Get Started</button>
+                   <Link to="/blog"> <button className='btnhm2'>Get Started</button></Link>
                 </div>
                 <div className='orderedtext'>
                     <ol>
