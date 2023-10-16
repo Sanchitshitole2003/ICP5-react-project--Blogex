@@ -12,12 +12,12 @@ function Navbar() {
         <img src={logo} alt="" className="icon" />
         <h1 className="navbar-title">Blogex</h1>
       </div>
-      <div>
-        <Link to="/" className="navbar_component">Home</Link>
-        <Link to="/blog" className="navbar_component">Blog</Link>
-        <Link to="/Popular" className="navbar_component">Popular</Link>
-        <Link to="/about" className="navbar_component">About</Link>
-        <Link to="/contact" className="navbar_component">Contact</Link>
+      <div className="links">
+        <Link to="/" className="navbar_component"><div>Home</div></Link>
+        <Link to="/blog" className="navbar_component"><div>Blog</div></Link>
+        <Link to="/Popular" className="navbar_component"><div>Popular</div></Link>
+        <Link to="/about" className="navbar_component"><div>About</div></Link>
+        <Link to="/contact" className="navbar_component"><div>Contact</div></Link>
       </div>
 
       <div>

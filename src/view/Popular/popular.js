@@ -1,7 +1,7 @@
 import './popular.css';
 import image8 from './image4.jpg';
-import Navbar from '../../Components/Navbar/Navbar';
-import Footer from '../../Components/Footer/Footer';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
 import image1 from './imagep1.jpg';
 import image2 from './imagep2.jpg';
 import image3 from './imagep3.jpg';

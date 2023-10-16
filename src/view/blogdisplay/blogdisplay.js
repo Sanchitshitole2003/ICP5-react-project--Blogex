@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from '../../Components/Navbar/Navbar';
+import Navbar from '../../components/Navbar/Navbar';
 import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 import { ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from 'react-router-dom'
-import "./blogdisplay.css"
+import "./blogdisplay.css";
 
 
 function Blogdisplay() {

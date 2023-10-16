@@ -1,6 +1,6 @@
 import './popularsample.css';
-import Navbar from '../../../Components/Navbar/Navbar';
-import Footer from '../../../Components/Footer/Footer';
+import Navbar from '../../../components/Navbar/Navbar';
+import Footer from '../../../components/Footer/Footer';
 import images1 from './../image4.jpg';
 export default function Tea() {
     return (
