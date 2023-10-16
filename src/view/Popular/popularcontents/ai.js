@@ -11,7 +11,7 @@ export default function Ai() {
                 <h1 className='heading'>Artificial Intelligance V/S Humans</h1><br />
                 <h2 className='by'>By: Arun Prabhudesai</h2><br /><br />
                 <div className='sampleparent'>
-                    <div>
+                    <div><div></div>
                         <img className='sampleimg' src={images3} />
                     </div>
                     <div className='sampletext'>
