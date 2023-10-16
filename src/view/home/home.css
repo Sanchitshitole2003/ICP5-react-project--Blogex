@@ -130,7 +130,6 @@ body {
 }
 .orderedtext{
     font-size: 30px;
-    margin-top: 50px;
     color: black;
     font-family: Harrington;
     margin-top: 200px;
@@ -144,9 +143,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    height: 600px;
-   
+    height: 600px;  
 }
+
 .titlediv{
 font-size: 50px;
 }
@@ -157,3 +156,106 @@ font-size: 50px;
     margin: 1px auto;
     font-family: Harrington;
 }
+
+@media screen and (min-width:400px) and (max-width:700px) {
+
+    .startdiv{
+        height: 400px; 
+        width: vw; 
+    }
+.titlediv{
+    font-size: 35px;
+}
+.btnhm1 {
+    height: 40px;
+    width: 100px; 
+    margin: 50px 50px; 
+    font-size: 15px;
+    border-radius: 5px;
+}
+.parentdiv1{
+    height: 400px;
+    width: 420px;
+    margin: 20px auto;
+    padding: 2px 5px;
+} 
+.titletexthome {
+    
+    font-size: 20px;
+    margin: 10px;
+    width: 380px;
+}
+.titlehome {
+    font-size: 30px;
+    margin: 10px auto;
+    font-family: Harrington;
+}
+.imagediv1 {
+    height: 200px;
+    left: 158px;
+    bottom: 0px;
+    box-shadow: 2px 0px 2px 1px darkgoldenrod;
+}
+.parentdiv3 {
+    height: 400px;
+    width: 420px;
+    margin: 20px auto;
+    padding: 2px 5px;
+}
+.creatediv{
+    font-size: 30px;
+    margin: auto 10px;
+}
+.orderedtext{
+    font-size: 20px;
+    color: black;
+    font-family: Harrington;
+    margin-top: 50px;
+}
+.btnhm2{
+   
+    height: 30px;
+    width: 100px;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.parentdiv2 {
+    height: 400px;
+    width: 420px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-block-start: 20px;
+    margin-block-end: 300px;
+    padding: 2px 5px;
+}
+.titlehome2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.parent2text{
+    font-size: 20px;
+    width: 400px;
+    margin: 10px auto;
+}
+.imagediv2 {
+    position: absolute;
+    height: 60px;
+    top: 10px;
+    right: 10px;
+}
+.insidetemp {
+    left: 0px;
+    width: 250px;
+    margin: 1px auto;
+    padding: 5px;
+    font-size: 15px;
+    bottom: -300px;
+}
+.imagetemp {
+    height: 200px;
+}
+
+}
+
+

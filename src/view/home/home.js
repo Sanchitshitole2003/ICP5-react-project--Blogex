@@ -11,10 +11,10 @@ export default function Home() {
         <> 
         <Navbar/>
         <div className="startdiv">
-
          <h1 className='titlediv'>BLOGEX</h1>
          <h3 className='titlesubdiv'>Express your knowledge and Experience</h3>
         </div>
+        
             <div className='parentdiv1'> 
                 <div className='container1'>
                     <h1 className='titlehome'>Create a blog</h1>
