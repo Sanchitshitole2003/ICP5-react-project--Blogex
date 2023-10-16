@@ -73,3 +73,36 @@
     margin-top: 50px;
     font-size: 40px;
 }
+
+@media screen and (min-width:400px) and (max-width:700px) {
+    .aparentdiv1{
+        height: 400px;
+        width: 400px;
+        margin: 20px auto;
+        background-color: darkgoldenrod; 
+
+    } 
+    .atitletexthome {
+        
+        font-size: 20px;
+        margin: 10px;
+        width: 380px;
+    }
+    .atitlehome {
+        font-size: 30px;
+        margin: px auto;
+        font-family: Harrington;
+    }
+    .aimagediv1 {
+        
+        height: 200px;
+        left: 50px;
+        top: 350px;
+        box-shadow: 2px 0px 2px 1px darkgoldenrod;
+    }
+    .abouthead{
+        
+        margin-top:200px;
+        font-size: 30px;
+    }
+}
