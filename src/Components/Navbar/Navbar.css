@@ -31,11 +31,13 @@
     width: 40%;
     justify-content: space-between;
 }
-
+.links{
+    margin: 0px auto;
+}
 
 .navbar_component {
     display: inline-block;
-    margin: 15px 30px;
+    margin: 0px 30px;
     color: whitesmoke;
     text-decoration: none;
     height: 25px;

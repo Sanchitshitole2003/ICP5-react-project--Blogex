@@ -10,6 +10,9 @@ import Login from './view/login-signup/login';
 import ContentHome from './view/ContentHome/ContentHome';
 import Tea from './view/Popular/popularcontents/tea';
 import Coding from './view/Popular/popularcontents/coding';
+// bootstrap
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 const router = createBrowserRouter([
   {

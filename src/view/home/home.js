@@ -31,7 +31,7 @@ export default function Home() {
              
             <div className='parentdiv2'>
                     <h1 className='titlehome2'>Explore<br/> Design options</h1>
-                    <div className="parent2text">
+                    <div className="parent2text"><br/>
                     Designing a blog involves considering both the visual and functional aspects of your website. 
                     A well-designed blog should be visually appealing, easy to navigate, and user-friendly. 
                     The design should enhance the content and help you achieve your blogging goals, 

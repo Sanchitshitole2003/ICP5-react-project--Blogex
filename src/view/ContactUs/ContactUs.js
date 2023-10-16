@@ -10,7 +10,7 @@ export default function ContactUs() {
     return(
         <>
         <Navbar/>
-        <div className='body_bg layout_padding'>
+        <div className='body_bg layout_padding maincdiv'>
             <div className='contact_section'>
                 <div className='container'>
                 <h1 className='m-3 p-1 text-center fs-15'>Contact Us</h1>
@@ -37,7 +37,7 @@ export default function ContactUs() {
                             <p className='para para-1'>📩https://www.roadtocode.org/</p><br></br>
                         </div>
 
-                        <div>
+                        {/* <div>
                             <h3 className='mt-1 heading'>Social</h3>
                             <ul>
                                 <list> <img src={Github} alt="" /> www.linkedin.com</list> 
@@ -48,7 +48,7 @@ export default function ContactUs() {
 
                                 <list><img src={Instagram} alt="" />www.instagram.com</list>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
           </div>
