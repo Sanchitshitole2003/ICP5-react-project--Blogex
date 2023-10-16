@@ -9,7 +9,7 @@ export default function Footer() {
         <div className='footer'>
             <div className='footer_container'>
                 <div className='website_info'>
-                    <img src={Logo} alt='' className='logo' /> <span className='name'>Blogex</span>
+                    <img src={Logo} alt='' className='logo' /> <span className='name'>BlogUs</span>
                     <p>Express your knowledge and experience</p>
                 </div>
                 <div className='Help_container'>
@@ -30,7 +30,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className='copyright'>
-                Copyright © Blogex 2023
+                Copyright © BlogUs 2023
             </div>
         </div>
     )

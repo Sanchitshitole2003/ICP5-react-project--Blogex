@@ -221,7 +221,7 @@ export default function ContentHome() {
       </div>
 
       <hr/>
-      <p className='app-desc'>&copy; 2023 Blogex</p>
+      <p className='app-desc'>&copy; 2023 BlogUs</p>
       
  
     </div>

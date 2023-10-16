@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import { RouterProvider, createBrowserRouter} from 'react-router-dom';
 import Home from './view/home/home';
-import Contact from "./view/contact/contact";
+import ContactUs from './view/ContactUs/ContactUs';
 import About from "./view/about/about";
 import BlogWriting from "./view/blogwriting/blogwriting";
 import Popular from './view/Popular/popular';
@@ -17,8 +17,8 @@ const router = createBrowserRouter([
     element: <Home />
   },
   {
-    path: '/contact',
-    element: <Contact/>
+    path: '/contacts',
+    element: <ContactUs/>
   },
   {
     path: '/about',

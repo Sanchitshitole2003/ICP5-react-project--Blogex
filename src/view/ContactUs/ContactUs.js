@@ -1,4 +1,4 @@
-import './contact.css';
+import './ContactUs.css';
 import Navbar from '../../../src/components/Navbar/Navbar';
 import Footer from '../../../src/components/Footer/Footer';
 import Github from './github.png';
@@ -6,12 +6,12 @@ import Linkedin from './linkedin.jpg';
 import Twitter from './twitter-2.png';
 import Instagram from './in.jpg';
 
-export default function Contact() {
+export default function ContactUs() {
     return(
         <>
         <Navbar/>
         <div className='body_bg layout_padding'>
-            <section className='contact_section'>
+            <div className='contact_section'>
                 <div className='container'>
                 <h1 className='m-3 p-1 text-center fs-15'>Contact Us</h1>
                 <p className='text-center from-control-lg m-0 p-0'>Let's Get In Touch!</p>
@@ -51,9 +51,9 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
-            </section>
+          </div>
             </div>
             <Footer />
 </>
-    );
-};
+    )
+}

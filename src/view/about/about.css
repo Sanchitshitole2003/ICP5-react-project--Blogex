@@ -1,17 +1,17 @@
 .aparentdiv1{
     display: flex;
     justify-content: space-around;
-    height: 600px;
+    height: 500px;
     width: 700px;
     margin-top: 20px;
     background-color: darkgoldenrod;
      position: relative;
-     margin-left: 50px;
+     margin-left: 100px;
      border-radius: 5px;  
 }
 .aimagediv1 {
     position: absolute;
-    height: 400px;
+    height: 350px;
     left: 600px;
     top: 100px;
     box-shadow: 2px 0px 2px 1px darkgoldenrod;
@@ -24,7 +24,7 @@
 }
 .atitletexthome {
     display: block;
-    font-size: 30px;
+    font-size: 25px;
     text-align: justify;
     margin: 20px;
     width: 450px;

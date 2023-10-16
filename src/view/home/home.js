@@ -11,7 +11,7 @@ export default function Home() {
         <> 
         <Navbar/>
         <div className="startdiv">
-         <h1 className='titlediv'>BLOGEX</h1>
+         <h1 className='titlediv'>BlogUs</h1>
          <h3 className='titlesubdiv'>Express your knowledge and Experience</h3>
         </div>
         
@@ -20,7 +20,7 @@ export default function Home() {
                     <h1 className='titlehome'>Create a blog</h1>
                     <div className='titletexthome'>Share your story with the world.
                         Stand out with a professionally-designed blog website that can be customized to fit your brand.
-                        Build, manage, and promote your blog with blogex built-in suite of design and marketing tools.</div>
+                        Build, manage, and promote your blog with BlogUs built-in suite of design and marketing tools.</div>
                         <Link to="/ContentHome"><button className='btnhm1'>Create Blog</button></Link>
                 </div>
 
