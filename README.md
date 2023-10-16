@@ -20,7 +20,7 @@
 
 ![Signup page screenshot](./src/about.png)
 
-## <u>Signup page
+## <u>SignUp page
 
 ![Signup page screenshot](./src/signup.png)
 
