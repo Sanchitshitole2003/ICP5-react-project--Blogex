@@ -45,7 +45,7 @@ export default function Popular() {
       <img src={image3} className='popimg'/>  
     </div>
     <div className='title'>AI v/s human</div>
-    <button className='btnpo'>Read Blog</button>
+    <Link to="/ai"><button className='btnpo'>Read Blog</button></Link>
 </div>
 
 <div className='divparent'>
