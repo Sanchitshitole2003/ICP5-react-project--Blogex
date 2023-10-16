@@ -1,7 +1,7 @@
   import React from 'react'
   import "./ContentCard.css"
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import { faEnvelope, faPhone, faUser, faTrashCan, faPen, faPenToSquare } from '@fortawesome/free-solid-svg-icons'
+  /*import { faEnvelope, faPhone, faUser, faTrashCan, faPen, faPenToSquare } from '@fortawesome/free-solid-svg-icons'*/
 
 
   function ContentCard({title, date, content, deleteBlog,enableEditMode, index}) {

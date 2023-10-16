@@ -37,7 +37,8 @@
    height:auto;
    max-height: max-content;
   word-wrap:break-word;
-  background-color:rgb(255, 234, 208);
+  /*background-color:rgb(255, 234, 208);*/
+  background-color: #F3E5AB;
 }
 .Blog-info p{
     font-size:x-large;

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import './ContentHome.css';
-import ContactCard from '../../../src/Components/ContentCard/ContentCard';
+import ContactCard from '../../../src/components/ContentCard/ContentCard';
 import showToast from 'crunchy-toast';
 import './WhatsApp Image 2023-10-14 at 13.17.20_e8a49290.jpg';
 import { Link } from 'react-router-dom';
-import Navbar from '../../Components/Navbar/Navbar';
+import Navbar from '../../components/Navbar/Navbar';
 
 export default function ContentHome() {
   const [blogs, setBlogs] = useState([
@@ -221,7 +221,7 @@ export default function ContentHome() {
       </div>
 
       <hr/>
-      <p className='app-desc'>&copy; 2023 MY CONTACT APP</p>
+      <p className='app-desc'>&copy; 2023 Blogex</p>
       
  
     </div>

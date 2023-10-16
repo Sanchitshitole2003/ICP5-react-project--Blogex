@@ -1,6 +1,6 @@
 import './contact.css';
-import Navbar from '../../../src/Components/Navbar/Navbar';
-import Footer from '../../../src/Components/Footer/Footer';
+import Navbar from '../../../src/components/Navbar/Navbar';
+import Footer from '../../../src/components/Footer/Footer';
 import Github from './github.png';
 import Linkedin from './linkedin.jpg';
 import Twitter from './twitter-2.png';
