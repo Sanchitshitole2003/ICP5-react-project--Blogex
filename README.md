@@ -12,6 +12,14 @@
 
 ![Popular page screenshot](./src/popular.png)
 
+## <u>Blogwriting page
+
+![Signup page screenshot](./src/blogwriting.png)
+
+## <u>About page
+
+![Signup page screenshot](./src/signup.png)
+
 ## <u>Signup page
 
 ![Signup page screenshot](./src/signup.png)

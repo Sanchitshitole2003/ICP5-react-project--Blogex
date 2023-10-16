@@ -11,7 +11,7 @@ export default function Home() {
         <> 
         <Navbar/>
         <div className="startdiv">
-         <h1 className='titlediv'>BlogUs</h1>
+         <div className='titlediv'>BlogUs</div>
          <h3 className='titlesubdiv'>Express your knowledge and Experience</h3>
         </div>
         
