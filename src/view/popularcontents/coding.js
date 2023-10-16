@@ -1,7 +1,7 @@
 import './popularsample.css';
-import Navbar from '../../../components/Navbar/Navbar';
-import Footer from '../../../components/Footer/Footer';
-import images2 from './../imagep1.jpg';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
+import images2 from './imagep1.jpg';
 export default function Coding() {
     return (
 

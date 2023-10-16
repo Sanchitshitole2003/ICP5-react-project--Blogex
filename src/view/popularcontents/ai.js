@@ -1,7 +1,7 @@
 import './popularsample.css';
-import Navbar from '../../../components/Navbar/Navbar';
-import Footer from '../../../components/Footer/Footer';
-import images3 from './../imagep3.jpg';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
+import images3 from './imagep3.jpg';
 export default function Ai() {
     return (
 
